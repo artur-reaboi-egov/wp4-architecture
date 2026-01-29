@@ -7,6 +7,23 @@ WE BUILD is strictly use-case driven. We have gathered 13 specific use cases div
 - Supply Chain (WP2): Streamlining logistics, transport, and eInvoicing.
 - Payments & Banking (WP3): Making secure, fraud-resistant payments and simplifying bank onboarding.
 
+## WE BUILD’s Role in the EUDI Journey
+It is important to distinguish between the final, legally mandated EUDI Wallet ecosystem and the work we are doing in WE BUILD. While the final ecosystem represents the mandatory end-state for all EU Member States, WE BUILD is the practical proving ground where these rules are tested, refined, and sometimes even invented through 13 use cases.
+
+Below are the key areas where our pilot differs from the final production ecosystem:
+
+### A Bridge to the Business Wallet 
+While the final EUDI ecosystem mandates a wallet for every citizen at Level of Assurance (LoA) High, WE BUILD is specifically pioneering the European Business Wallet. Unlike the citizen-centric wallet, the BW is a market-driven tool designed for economic operators to manage mandates, exchange professional documents like electronic invoices, and receive legally valid notifications. Core BW operations like onboarding and data portability target LoA Substantial.
+
+### Filling the "ARF Gaps" with WBCS
+The final ecosystem is strictly governed by the official [Architecture Reference Framework (ARF)](https://eudi.dev/latest/architecture-and-reference-framework-main/). However, because the ARF is still evolving, it does not yet cover every detail needed for complex business and payment scenarios. WE BUILD uses WE BUILD Conformance Specifications (WBCS) and Architectural Decision Records (ADRs) to create consortium-specific rules that "dictate the implementation" for our pilots. These specifications serve as our "rulebook" to ensure interoperability across all partners until the final EU standards are fully matured.
+
+### Proving Readiness through Testing, Not Just Certification
+In the final ecosystem, wallets and services must undergo formal certification by national bodies to ensure full legal compliance. Because we are in a pilot phase, WE BUILD relies on the Interoperability Testbed (ITB) as our primary gatekeeper. 
+
+### From Lab to Near-Production
+WE BUILD is not a theoretical exercise; we are building software that is functional, interoperable, and as close to production-ready as possible. 
+
 ## Work Package 4 (WP4) - General Capabilities
 WP4 does not build technology for its own sake. Our technical groups - Architecture, Semantics, Wallet Providers, PID & EBWOID Provider, Qualified Trust Service Provider (QTSP), Trust Registry Infrastructure, and Test Infrastructure exist solely to provide the "engine" that powers these 13 use cases. We aim to create shared solutions so that each use case doesn't have to reinvent the wheel, saving time and project budget.
 
