@@ -63,7 +63,7 @@ According to the rules, a provider must hit the revocation button without delay 
 To be authored by Trust Group (registration) and the QTSP group (certificate issuance). Describes how verifiers registers and obtain the access certificates needed to securely identify themselves to a wallet
 
 ## Validation Functions for Relying Parties 
-To be authored by QTSP Group? Details the services provided to help Relying Parties authenticate and validate the person identification data and attestations they receive
+To be authored by the PID Providers group (for PID and LPID/EBW-OID) and the QTSP group (for EAA). Details the services provided to help Relying Parties authenticate and validate the person identification data and attestations they receive.
 
 ## Governance Responsibilities
 Who owns what in the consortium.
