@@ -6,6 +6,8 @@ Relation to QTSP and Trust Registry.
 ## Security Measures
 Signatures, authentication, key lifecycle.
 
+The wallet secure cryptographic application/device (WSCA/WSCD) architecture is to be specified by the Architecture and Wallets groups, and in the case of remote WSCA/WSCD, together with the QTSP group.
+
 ## Revocation and Trust Status Framework
 In order to fulfill the Article 5 baseline established in [Revocation Mandate](../02-regulatory-alignment.md#revocation-mandate), the consortium has identified the following operational scenarios.
 
