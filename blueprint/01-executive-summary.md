@@ -39,6 +39,7 @@ To keep everyone aligned and ensure that a wallet from one country works with a 
 ## How to get started
 The Blueprint is your starting point to understand the "WE BUILD way" of doing things.
 - Technical teams should look for the WBCS to start building their interfaces.
+- Architecture stakeholders should look for ADRs to understand the critical architecture decisions and compare these with other implementations.
 - Every implementation must eventually pass through our [Interoperability Testbed (ITB)](https://github.com/webuild-consortium/wp4-interop-test-bed), to prove that your technical solution is ready for real-world piloting.
 
 Use cases set the requirements, and WP4 builds the interoperable foundation to meet them.
