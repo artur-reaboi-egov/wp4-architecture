@@ -9,11 +9,12 @@ The EU digital identity and EU business wallet ecosystem is an instance of the 3
 
 ## System Landscape
 ```mermaid
-issuer-->holder
-holder-->verifier
-issuer-->trust
-verifier-->trust
-holder-->trust
+graph LR;
+  issuer-->holder;
+  holder-->verifier;
+  issuer-->trust;
+  verifier-->trust;
+  holder-->trust;
 ```
 ## Common Rules for Everyone
 Security, error handling, auditability, portability.
