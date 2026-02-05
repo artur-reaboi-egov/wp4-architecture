@@ -1,7 +1,7 @@
 # Architecture Overview
 
 ## The Ecosystem at a Glance
-The EU digital identity and EU business wallet ecosystem is an instance of the 3 party model for verifiable digital credentials (VDCs). In this model there are 4 main actors:
+The EU digital identity and EU business wallet ecosystem is an instance of the 3 party model for attestations. In this model there are 4 main actors:
 1. The holder, aka the identity wallet that is controlled by a data subject (either a natural or legal person)
 2. The isssuer that relies on authentic sources of information to issue VDCs to the holder/wallet
 3. The verifier receives an attestation based on information present in the wallet.
