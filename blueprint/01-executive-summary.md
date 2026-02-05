@@ -27,6 +27,8 @@ WE BUILD is not a theoretical exercise; we are building software that is functio
 ## Work Package 4 (WP4) - General Capabilities
 WP4 does not build technology for its own sake. Our technical groups - Architecture, Semantics, Wallet Providers, PID & EBWOID Provider, Qualified Trust Service Provider (QTSP), Trust Registry Infrastructure, and Test Infrastructure exist solely to provide the engine that powers the 13 use cases. We aim to create shared solutions so that each use case doesn't have to reinvent the wheel, saving time and project budget.
 
+To achieve this efficiency objective, this also implies that WP2 and WP3 do not build the technology that WP4 builds. Instead, WP2 and WP3 use cases are expected to implement the technology that WP4 builds to meet their requirements.
+
 <!-- TODO: Is this true? How about testing things that the EC wants us to test or that would benefit the EUDIW/BW implementations in EU? -->  
 
 ### How WP4 Works: From Strategy to Testing and Piloting
