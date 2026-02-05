@@ -14,14 +14,6 @@ EBW: the issuing we do
 This chapter describes the general **WE BUILD PID/EBWOID issuing process** in a sequence diagram.
 Todo: Mention ETSI standardization: ETSI TS 119 472-3 for (Q)EAA and PID issuance. ETSI TS 119 476-3 will standardize WUA and WIA.
 
-### Examples for Wallet and PID Lifecycle in Germany
-This chapter shows examples from the German EUDI Wallet in sequence diagrams for
-
-1) [Wallet Activation](https://gitlab.opencode.de/bmi/eudi-wallet/wallet-development-documentation-public/-/blob/main/doc/architecture-concept/flows/00-wallet-activation.md)
-2) [Wallet Registration](https://gitlab.opencode.de/bmi/eudi-wallet/wallet-development-documentation-public/-/blob/main/doc/architecture-concept/flows/01-wallet-registration.md)
-3) [PID Issuance](https://gitlab.opencode.de/bmi/eudi-wallet/wallet-development-documentation-public/-/blob/main/doc/architecture-concept/flows/21-pid-issuance.md)
-
-There are more diagrams on [Wallet Development Documentation](https://gitlab.opencode.de/bmi/eudi-wallet/wallet-development-documentation-public/-/blob/main/doc/architecture-concept/04-data-flows.md?ref_type=heads)
 ##  The Technical Languages We Use 
 List of integration points that will be formalized in Conformance Specifications.
 
