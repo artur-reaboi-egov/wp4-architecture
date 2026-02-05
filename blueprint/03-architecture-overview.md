@@ -9,7 +9,7 @@ The EU digital identity and EU business wallet ecosystem is an instance of the 3
 
 The EU ecosystem for the natural person wallet is described in more detail in [ARF]. The corresponding document for the EU legal person wallet is in progress.
 
-Several sources exist for describing the more general 3rd party model including ongoing work in the IETF eg [https://datatracker.ietf.org/doc/draft-ietf-spice-vdcarch/]
+Several sources exist for describing the more general 3rd party model, including ongoing work in the IETF eg [https://datatracker.ietf.org/doc/draft-ietf-spice-vdcarch/]
 
 ## System Landscape
 ```mermaid
