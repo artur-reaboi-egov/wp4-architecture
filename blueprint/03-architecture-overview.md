@@ -7,6 +7,10 @@ The EU digital identity and EU business wallet ecosystem is an instance of the 3
 3. The verifier that recieves verifiable digital credential presentaions (VDPs) based on information present in VDCs from the holder/wallet.
 4. The trust framework that in the EU ecosystems is based on ETSI TS 119604/119612 aka trust status lists populated by trust status providers that for some use cases are QTSPs
 
+The EU ecosystem for the natural person wallet is described in more detail in [ARF]. The corresponding document for the EU legal person wallet is in progress.
+
+Several sources exist for describing the more general 3rd party model including ongoing work in the IETF eg [https://datatracker.ietf.org/doc/draft-ietf-spice-vdcarch/]
+
 ## System Landscape
 ```mermaid
 graph LR;
