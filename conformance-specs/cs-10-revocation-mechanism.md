@@ -1,7 +1,7 @@
 # WE BUILD - Pre-flight Conformance Specification CS-010: Attestation Revocation Mechanism
 
-Version 1.0 / Pre-flight Draft
-Date: 10 July 2026
+Version 1.1 / Pre-flight Draft
+Date: 1 October 2026
 
 **Authors**: WP4 Architecture, PID/EBWOID Group (Task 5)
 
@@ -216,7 +216,7 @@ Participating actors: Issuer, Wallet Provider, Wallet Unit, Holder, Status Provi
 | RP-RV-01 | The Relying Party SHOULD check the revocation status of every presented attestation that carries a `status` claim. | [2], [4] VCR_13 |
 | RP-RV-02 | The Relying Party MUST support retrieval of Status List Tokens from the Status Provider and their verification: validate the signature against the expected Status Issuer (the Issuer itself or an entity authorised to act on its behalf), check that `sub` matches the retrieval URI, and check freshness (`iat`, `exp`, `ttl`). | [1] §§5, 8, 11.3 |
 | RP-RV-03 | The Relying Party MUST treat an attestation whose status is INVALID as invalid and reject it, even if its signature verifies and it is unexpired. | [1], [2] |
-| RP-RV-04 | The Relying Party SHOULD cache Status List Tokens and refresh them based on `exp` and `ttl`, rather than fetching them for each individual presentation; cached lists SHOULD be distributed internally to all its verifier instances. | [1] §12.3, [4] VCR_15 |
+| RP-RV-04 | The Relying Party SHOULD cache Status List Tokens and refresh them based on `exp` and `ttl`, rather than fetching them for each individual presentation; cached lists SHOULD be distributed internally to all its verifier instances. | [1] §13.7, [4] VCR_15 |
 | RP-RV-05 | When no reliable revocation status information is available, the Relying Party SHOULD perform a risk analysis considering the factors relevant to the use case before accepting or refusing the attestation, and MUST define an acceptance policy for such cases. | [2], [4] VCR_13 |
 | RP-RV-06 | The Relying Party MUST NOT query revocation status in a way that discloses the specific attestation, the Holder, the time or the purpose of the verification to the Issuer (e.g. per-attestation lookups tied to user sessions). | [1] §12, [2] |
 
@@ -305,9 +305,9 @@ Conformance testing for this pre-flight specification will be defined as part of
 
 | # | Reference |
 |---|-----------|
-| [1] | IETF (2026) OAuth Token Status List, draft-ietf-oauth-status-list-20 (Internet-Draft, OAuth WG). Available at: https://datatracker.ietf.org/doc/draft-ietf-oauth-status-list/20/ (Accessed: 10 July 2026). This specification pins this revision, aligned with CS-004 [8]. |
+| [1] | IETF (2026) Token Status List (TSL), draft-ietf-oauth-status-list-20, 20 April 2026 (Internet-Draft, OAuth WG). Available at: https://datatracker.ietf.org/doc/draft-ietf-oauth-status-list/20/ (Accessed: 1 October 2026). This specification pins this revision, aligned with CS-004 [8]. |
 | [2] | WE BUILD (2026) ADR: Attestation Revocation Mechanism. Available at: [../adr/attestation-revocation-mechanism.md](../adr/attestation-revocation-mechanism.md) |
-| [3] | WE BUILD (2026) ADR (pending): Pre-flight CS. Available at: [pre-flight CS ADR](https://github.com/webuild-consortium/wp4-architecture/pull/245) |
+| [3] | WE BUILD (2026) ADR: Pre-flight CS. Available at: [pre-flight CS ADR](../adr/pre-flight-CS.md) |
 | [4] | European Commission (2026) EUDI Wallet Architecture and Reference Framework, Annex 2, Topic 7: Attestation revocation and revocation checking (VCR_xx requirements). Available at: https://eu-digital-identity-wallet.github.io/eudi-doc-architecture-and-reference-framework/ (Accessed: 24 August 2026). |
 | [5] | European Commission (2024) Commission Implementing Regulation (EU) 2024/2977 on person identification data and electronic attestations of attributes, Article 5 (Revocation of person identification data). Available at: https://eur-lex.europa.eu/eli/reg_impl/2024/2977/oj (Accessed: 10 July 2026). |
 | [6] | European Commission (2024) Commission Implementing Regulation (EU) 2024/2979 on integrity and core functionalities, Article 7 (Revocation of wallet unit attestations). Available at: https://eur-lex.europa.eu/eli/reg_impl/2024/2979/oj (Accessed: 10 July 2026). |
